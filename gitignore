@@ -1,0 +1,25 @@
+# PyInstaller
+build/
+dist/
+*.spec.bak
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ffmpeg (licence séparée, non redistribuable via git)
+ffmpeg.exe
+ffprobe.exe
+
+# Modèles Demucs / cache
+*.cache/
+
+# Hook runtime généré automatiquement
+_hook_ffmpeg.py
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
